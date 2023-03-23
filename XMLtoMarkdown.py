@@ -27,12 +27,14 @@ def process_anime_element(element):
     else:
         name = ""
 
-    # Format values into Markdown table row
-    row = f"| https://anidb.net/anime/{anidbid} | https://thetvdb.com/index.php?tab=series&id={tvdbid}| {name} |\n"
+    # Check if tvdbid is not unknown
+    if tvdbid != "unknown":
+        # Format values into Markdown table row
+        row = f"| https://anidb.net/anime/{anidbid} | https://thetvdb.com/index.php?tab=series&id={tvdbid}| {name} |\n"
 
-    # Add row to table_rows
-    global table_rows
-    table_rows += row
+        # Add row to table_rows
+        global table_rows
+        table_rows += row
 
     # Recursively process child elements
     for child in element:
