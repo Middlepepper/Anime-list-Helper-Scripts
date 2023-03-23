@@ -12,3 +12,6 @@ You will fill in the missing detailed feed in the .xml you have updated to the s
 # getunknownshownamefromgithub.py
 
 A script to check the last copy of anime-list-unknown.xml and output the list of missing anime names.
+
+# copychangestoanimelistmaster.py
+A script to allow for any changed done in the working .xml file to be copied over to a fresh copy to prep for a pull request.
