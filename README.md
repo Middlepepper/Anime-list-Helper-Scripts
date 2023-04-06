@@ -2,7 +2,7 @@
 Repository I have for Script I made to help with formating or filling in https://github.com/Anime-Lists/anime-lists
 
 
-# XMLtoMarkdown.py
+# Validate_anime-list-unknown.xml
 A script to check for any errors in the .anime-list-unknown.xml
 
 Currently there are 4 checks
